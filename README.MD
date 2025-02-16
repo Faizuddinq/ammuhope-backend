@@ -1,6 +1,6 @@
-# Sahyog Backend
+# AmmuHope Backend
 
-<!-- Backend for [sahyog](https://github.com/Jaimin25/Sahyog). -->
+Backend for [AmmuHope](https://github.com/Faizuddinq/ammuhope-frontend).
 
 ## Installation
 
@@ -12,7 +12,7 @@
    https://github.com/<github_username>/ammuhope-backend.git
    ```
 
-3. Go to the sahyog-backend directory:
+3. Go to the ammuhope-backend directory:
 
    ```sh
    cd ammuhope-backend

@@ -4,9 +4,10 @@ import { createClient } from '@supabase/supabase-js';
 
 import 'dotenv/config';
 
-const baseurl = process.env.NODE_ENV
-    ? 'https://ammuhope-backend.vercel.app'
-    : 'http://localhost:5172';
+// const baseurl = process.env.NODE_ENV === 'production'
+//     ? 'https://ammuhope-backend.vercel.app'
+//     : 'http://localhost:5172';
+const baseurl = 'http://localhost:5172';
 
 function encryptValue(val) {
     return CryptoJS.AES.encrypt(
