@@ -27,7 +27,7 @@ const sendPaymentSuccessMail = async (
         },
         to: sendTo,
         subject: 'Donation Successful',
-        html: `Hello ${fullname}, Thank you for your generous donation<br/><br/>Amount: ₹${amount}<br/>Fundraiser: <a href="https://ammuhope.vercel.app/fundraiser/${fundraiserId}" target="_blank">View Details</a><br/>Payment ID: ${paymentId}.<br/><br/>This is a payment confirmation mail for your donation. Do not reply.`,
+        html: `Hello ${fullname}, Thank you for your generous donation<br/><br/>Amount: ₹${amount}<br/>Fundraiser: <a href="https://ammuhope-frontend.vercel.app/fundraiser/${fundraiserId}" target="_blank">View Details</a><br/>Payment ID: ${paymentId}.<br/><br/>This is a payment confirmation mail for your donation. Do not reply.`,
     };
 
     const mailSent = await transporter.sendMail(
