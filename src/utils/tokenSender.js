@@ -29,7 +29,7 @@ const sendVerificationMail = async (sendTo, uid) => {
 
     const mailConfigurations = {
         from: {
-            name: 'sahyog',
+            name: 'ammuhope',
             address: process.env.OFFICIAL_GMAIL,
         },
         to: sendTo,
