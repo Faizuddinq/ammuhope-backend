@@ -1,6 +1,6 @@
 # Sahyog Backend
 
-Backend for [sahyog](https://github.com/Jaimin25/Sahyog).
+<!-- Backend for [sahyog](https://github.com/Jaimin25/Sahyog). -->
 
 ## Installation
 
@@ -9,13 +9,13 @@ Backend for [sahyog](https://github.com/Jaimin25/Sahyog).
 2. Clone your GitHub forked repo:
 
    ```sh
-   https://github.com/<github_username>/sahyog-backend.git
+   https://github.com/<github_username>/ammuhope-backend.git
    ```
 
 3. Go to the sahyog-backend directory:
 
    ```sh
-   cd sahyog-backend
+   cd ammuhope-backend
    ```
 
 4. Install dependencies
